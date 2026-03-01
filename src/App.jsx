@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import Weather from "./components/Weather";
 import Search from "./components/Search";
 import Icon from "./components/Icon";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = ({}) => {
   const [weatherData, setWeatherData] = useState();
@@ -40,9 +42,11 @@ const App = ({}) => {
   return (
     <div className="min-h-screen bg-linear-to-br from-cyan-300 via-blue-500 to-indigo-700 flex justify-center items-start">
       <div className="w-full max-w-md mx-auto px-4 py-8 flex flex-col">
+        <Header/>
         <Search search={search} inputRef={inputRef} />
         <Icon WeatherIcon={weatherData?.icon} />
         <Weather weatherData={weatherData} />
+        <Footer/>
       </div>
     </div>
   );

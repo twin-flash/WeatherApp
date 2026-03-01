@@ -13,7 +13,7 @@ const Search = ({ search, inputRef }) => {
           ref={inputRef}
           onKeyDown={handleKey}
           className="bg-gray-200 rounded-full px-4 min-w-2/12 mx-2 border-none outline-none"
-          placeholder="Search"
+          placeholder="Search city..."
           type="text"
         />
         <button
