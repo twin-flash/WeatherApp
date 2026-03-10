@@ -1,16 +1,72 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **Weather Application** that displays real-time weather information for any city. The app fetches live weather data from an API and shows important details like temperature, weather conditions, humidity, and wind speed.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Search weather by **city name**
+* Displays **current temperature**
+* Shows **weather condition (Cloudy, Rainy, Sunny, etc.)**
+* Displays **humidity and wind speed**
+* **Responsive design** for desktop and mobile
+* Fast and lightweight interface
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **Weather API**
 
-## Expanding the ESLint configuration
+## ⚙️ Usage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Enter a **city name** in the search box.
+2. Click the **search button**.
+3. The app will display the **current weather details** for that location.
+
+Displays:
+
+* 🌡️ Temperature
+* ☁️ Weather condition
+* 💧 Humidity
+* 🌬️ Wind speed
+
+# 🌦️ Weather App
+
+A simple and clean **Weather Application** that displays real-time weather information for any city. The app fetches live weather data from an API and shows important details like temperature, weather conditions, humidity, and wind speed.
+
+## 🚀 Features
+
+* Search weather by **city name**
+* Displays **current temperature**
+* Shows **weather condition (Cloudy, Rainy, Sunny, etc.)**
+* Displays **humidity and wind speed**
+* **Responsive design** for desktop and mobile
+* Fast and lightweight interface
+
+## 🛠️ Technologies Used
+
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **Weather API**
+
+## ⚙️ Usage
+
+1. Enter a **city name** in the search box.
+2. Click the **search button**.
+3. The app will display the **current weather details** for that location.
+
+## 📷 Preview
+
+Displays:
+
+* 🌡️ Temperature
+* ☁️ Weather condition
+* 💧 Humidity
+* 🌬️ Wind speed
+
+## 📌 Future Improvements
+
+* Dark / Light mode
+* Better UI animations
